@@ -1,0 +1,12 @@
+.card a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(105, 105, 224);
+    padding: 9px;
+    border: rgb(105, 105, 224);
+    width: 45%;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
