@@ -8,8 +8,8 @@ import {
 import Main from './layouts/Main';
 import Home from './Components/Home/Home';
 import Topics from './Components/Topics/Topics';
-import Statistics from './Components/Statistics/Statistics';
 import Blog from './Components/Blog/Blog';
+import Statistics from './Components/Statistics/Statistics';
 
 
 
