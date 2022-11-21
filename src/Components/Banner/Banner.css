@@ -1,0 +1,48 @@
+.banner {
+    width: 100%;
+    padding: 180px;
+    padding-top: 5%;
+}
+
+.banner img {
+    width: 70%;
+}
+
+.logo {
+    color: hotpink;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-details {
+    padding: 50px;
+}
+
+.banner-details p {
+    font-size: 19px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.learn-more-btn {
+    text-decoration: none;
+    background-color: hotpink;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.learn-more-btn:hover {
+    background-color: transparent;
+    border: 1px solid hotpink;
+    color: hotpink;
+}
+
+
+/*  */
+@media only screen and (max-width: 600px) {
+    .banner img {
+        width: 100%;
+    }
+}

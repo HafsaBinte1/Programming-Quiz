@@ -10,6 +10,8 @@ import Home from './Components/Home/Home';
 import Topics from './Components/Topics/Topics';
 import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
+import QuizeQuestions from './Components/QuizeQuestions/QuizeQuestions';
+
 
 
 
@@ -21,12 +23,20 @@ function App() {
       children:[
         {
           path: "/",
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
         },
         {
           path: "/topics",
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Topics></Topics>
+        },
+        {
+          path: '/quizeQuestions/:quizeId',
+          loader: ({ params }) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizeId}`)
+          },
+          element: <QuizeQuestions></QuizeQuestions>
         },
         {
           path: "/statistics",

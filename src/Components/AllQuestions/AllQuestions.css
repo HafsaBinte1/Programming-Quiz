@@ -1,0 +1,33 @@
+.question-container {
+    width: 40%;
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.heading {
+    color: grey;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.option-type {
+    border: 1px solid grey;
+    padding: 12px;
+}
+
+.eye-icon {
+    width: 4%;
+}
+
+.questions-icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
