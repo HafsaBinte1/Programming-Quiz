@@ -9,7 +9,7 @@
 }
 
 .logo {
-    color: hotpink;
+    color: rgb(105, 105, 224);
     font-size: 40px;
     font-weight: bold;
 }
@@ -24,25 +24,56 @@
     margin-bottom: 40px;
 }
 
-.learn-more-btn {
-    text-decoration: none;
-    background-color: hotpink;
-    color: #fff;
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-.learn-more-btn:hover {
-    background-color: transparent;
-    border: 1px solid hotpink;
-    color: hotpink;
-}
 
 
 /*  */
-@media only screen and (max-width: 600px) {
-    .banner img {
+@media only screen and (max-width: 730px) {
+    .banner-img {
         width: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    .banner-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 50px;
+    }
+
+    .banner-details p {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-img img {
+        width: 100%;
+    }
+
+    .learn-more-btn {
+        display: none;
+    }
+
+    .banner-details {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner-img img {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .banner-details p {
+        font-size: 18px;
     }
 }

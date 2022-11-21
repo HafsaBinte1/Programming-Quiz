@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Banner.css';
+import './Banner.css'
 import img from '../../img/PLC-Quiz-Project.webp';
 
 const Banner = () => {
     return (
         <div className='banner row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 mt-4'>
-            <div>
-                <img className='img-fluid' src={img} alt="" />
+            <div  className='banner-img'>
+                <img src={img} alt="" />
             </div>
             <div className='banner-details'>
                 <h3><span className='logo'>Programming Quiz</span> is a very Important for  <br />

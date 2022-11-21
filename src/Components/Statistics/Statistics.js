@@ -27,7 +27,7 @@ const Statistics = () => {
                 <h3 className='logo'>Total Quize in Every Topics</h3>
             </div>
             <div className=' d-flex align-items-center justify-content-center mt-5'>
-                <LineChart width={600} height={400} data={data}>
+                <LineChart width={400} height={400} data={data}>
                     <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                     <XAxis dataKey="name" />
                     <YAxis />
